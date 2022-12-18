@@ -1,0 +1,7 @@
+{
+	"variants": {
+		"": {
+			"model": "expansioncraft:block/test_block"
+		}
+	}
+}
