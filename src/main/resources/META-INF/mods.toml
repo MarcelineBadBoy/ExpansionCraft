@@ -4,15 +4,15 @@ license="MIT"
 
 [[mods]] #mandatory
 modId="expansioncraft"
-version="1.0" 
+version="0.0.2-1.19.2" 
 displayName="Expansion Craft" 
 
 #updateJSONURL="https://change.me.example.invalid/updates.json" 
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" 
 
 logoFile="examplemod.png"
-credits="Programing: MarcelineBadBoy, J4cob; Art: K0giusz"
-authors="MarcelineBadBoy, K0giusz, J4cob"
+credits="Programing: MarcelineBadBoy, J4cob2; Art: K0giusz"
+authors="MarcelineBadBoy, K0giusz, J4cob2"
 description='''
 '''
 

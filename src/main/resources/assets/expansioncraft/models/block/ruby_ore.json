@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "expansioncraft:blocks/test_block"
+		"all": "expansioncraft:blocks/ruby_ore"
 	}
 }
