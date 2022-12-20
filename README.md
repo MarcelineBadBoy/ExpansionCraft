@@ -4,4 +4,4 @@
 
 ### Overview
 
-**Expansion Craft** is a mod that expands upon smithery, archery and wizardy in Minecarft.
+**Expansion Craft** is a library for some of my mods
