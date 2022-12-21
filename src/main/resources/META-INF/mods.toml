@@ -4,7 +4,7 @@ license="MIT"
 
 [[mods]] #mandatory
 modId="expansioncraft"
-version="0.0.1-1.19.2" 
+version="0.0.2-1.19.2" 
 displayName="Expansion Craft" 
 
 #updateJSONURL="https://change.me.example.invalid/updates.json" 
