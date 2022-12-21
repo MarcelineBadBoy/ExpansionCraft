@@ -13,11 +13,11 @@
 	"block.expansioncraft.ruby_ore": "Ruby Ore",
 	"block.expansioncraft.topaz_ore": "Topaz Ore",
 	
-	"block.expansioncraft.raw_diamond_block": "",
-	"block.expansioncraft.raw_emerald_block": "",
-	"block.expansioncraft.raw_life_crystal_block": "",
-	"block.expansioncraft.raw_ruby_block": "",
-	"block.expansioncraft.raw_topaz_block": "",
+	"block.expansioncraft.raw_diamond_block": "Block Of Raw Diamond",
+	"block.expansioncraft.raw_emerald_block": "Block Of Raw Emerald",
+	"block.expansioncraft.raw_life_crystal_block": "Block Of Raw Life Crystal",
+	"block.expansioncraft.raw_ruby_block": "Block Of Raw Ruby",
+	"block.expansioncraft.raw_topaz_block": "Block Of Raw Toapz",
 	
 	"itemGroup.ectab": "Expansion Craft"
 }
