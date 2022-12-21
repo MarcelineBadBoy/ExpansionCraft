@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "expansioncraft:life_crystal_ore",
+    "expansioncraft:ruby_ore",
+    "expansioncraft:topaz_ore"
+  ]
+}
