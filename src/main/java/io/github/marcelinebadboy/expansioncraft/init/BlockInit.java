@@ -24,28 +24,39 @@ public class BlockInit {
     public static final RegistryObject<Block> LIFE_CRYSTAL_ORE = registerBlock("life_crystal_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
+    
 	public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
 	
+	
 	public static final RegistryObject<Block> RAW_DIAMOND_BLOCK = registerBlock("raw_diamond_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> RAW_EMERALD_BLOCK = registerBlock("raw_emerald_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> RAW_LIFE_CRYSTAL_BLOCK = registerBlock("raw_life_crystal_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> RAW_TOPAZ_BLOCK = registerBlock("raw_topaz_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
 	
+	
+	
 	public static final RegistryObject<Block> LIFE_CRYSTAL_BLOCK = registerBlock("life_crystal_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block", 
 			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(3f)), CreativeTab.EXPANSION_CRAFT_TAB);
 	
