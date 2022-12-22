@@ -35,30 +35,32 @@ public class BlockInit {
 	
 	
 	public static final RegistryObject<Block> RAW_DIAMOND_BLOCK = registerBlock("raw_diamond_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> RAW_EMERALD_BLOCK = registerBlock("raw_emerald_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> RAW_LIFE_CRYSTAL_BLOCK = registerBlock("raw_life_crystal_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> RAW_RUBY_BLOCK = registerBlock("raw_ruby_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> RAW_TOPAZ_BLOCK = registerBlock("raw_topaz_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	
+	public static final RegistryObject<Block> AMETHYST_BLOCK = registerBlock("amethyst_block", 
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> LIFE_CRYSTAL_BLOCK = registerBlock("life_crystal_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	public static final RegistryObject<Block> TOPAZ_BLOCK = registerBlock("topaz_block", 
-			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f)), CreativeTab.EXPANSION_CRAFT_TAB);
+			() -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(5f).requiresCorrectToolForDrops()), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	//Registering block
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
