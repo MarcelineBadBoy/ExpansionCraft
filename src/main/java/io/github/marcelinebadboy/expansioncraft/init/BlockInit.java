@@ -25,12 +25,24 @@ public class BlockInit {
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
     
+    public static final RegistryObject<Block> DEEPSLATE_LIFE_CRYSTAL_ORE = registerBlock("deepslate_life_crystal_ore", 
+			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f).requiresCorrectToolForDrops(), 
+					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
+    
 	public static final RegistryObject<Block> RUBY_ORE = registerBlock("ruby_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
 	
+	public static final RegistryObject<Block> DEEPSLATE_RUBY_ORE = registerBlock("deepslate_ruby_ore", 
+			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f).requiresCorrectToolForDrops(), 
+					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
 	public static final RegistryObject<Block> TOPAZ_ORE = registerBlock("topaz_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops(), 
+					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
+	
+	public static final RegistryObject<Block> DEEPSLATE_TOPAZ_ORE = registerBlock("deepslate_topaz_ore", 
+			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(4.5f).requiresCorrectToolForDrops(), 
 					UniformInt.of(3, 7)), CreativeTab.EXPANSION_CRAFT_TAB);
 	
 	

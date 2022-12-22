@@ -2,9 +2,12 @@
   "replace": false,
   "values": [
     "expansioncraft:life_crystal_ore",
+    "expansioncraft:deepslate_life_crystal_ore",
     "expansioncraft:ruby_ore",
+    "expansioncraft:deepslate_ruby_ore",
     "expansioncraft:topaz_ore",
-    
+    "expansioncraft:deepslate_topaz_ore",
+        
     "expansioncraft.raw_diamond_block",
 	"expansioncraft.raw_emerald_block",
 	"expansioncraft.raw_life_crystal_block",

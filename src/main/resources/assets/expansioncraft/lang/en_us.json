@@ -10,8 +10,11 @@
 	"item.expansioncraft.topaz": "Topaz",
 	
 	"block.expansioncraft.life_crystal_ore": "Life Crystal Ore",
+	"block.expansioncraft.deepslate_life_crystal_ore": "Deepslate Life Crystal Ore",
 	"block.expansioncraft.ruby_ore": "Ruby Ore",
+	"block.expansioncraft.deepslate_ruby_ore": "Deepslate Ruby Ore",
 	"block.expansioncraft.topaz_ore": "Topaz Ore",
+	"block.expansioncraft.deepslate_topaz_ore": "Deepslate Topaz Ore",
 	
 	"block.expansioncraft.raw_diamond_block": "Block Of Raw Diamond",
 	"block.expansioncraft.raw_emerald_block": "Block Of Raw Emerald",
