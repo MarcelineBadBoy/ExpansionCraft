@@ -9,6 +9,8 @@
 	"item.expansioncraft.ruby": "Ruby",
 	"item.expansioncraft.topaz": "Topaz",
 	
+	"block.expansioncraft.foundry_smelter": "Foundry Smelter",
+	
 	"block.expansioncraft.life_crystal_ore": "Life Crystal Ore",
 	"block.expansioncraft.deepslate_life_crystal_ore": "Deepslate Life Crystal Ore",
 	"block.expansioncraft.ruby_ore": "Ruby Ore",
@@ -16,17 +18,17 @@
 	"block.expansioncraft.topaz_ore": "Topaz Ore",
 	"block.expansioncraft.deepslate_topaz_ore": "Deepslate Topaz Ore",
 	
-	"block.expansioncraft.raw_diamond_block": "Block Of Raw Diamond",
-	"block.expansioncraft.raw_emerald_block": "Block Of Raw Emerald",
+	"block.expansioncraft.raw_diamond_block": "Block of Raw Diamond",
+	"block.expansioncraft.raw_emerald_block": "Block of Raw Emerald",
 	"block.expansioncraft.raw_life_crystal_block": "Block Of Raw Life Crystal",
-	"block.expansioncraft.raw_ruby_block": "Block Of Raw Ruby",
-	"block.expansioncraft.raw_topaz_block": "Block Of Raw Topaz",
+	"block.expansioncraft.raw_ruby_block": "Block of Raw Ruby",
+	"block.expansioncraft.raw_topaz_block": "Block of Raw Topaz",
 	
 	"block.expansioncraft.amethyst_block": "Block Of Amethyst",
 	"block.minecraft.amethyst_block": "Block Of Amethyst Shard",
-	"block.expansioncraft.life_crystal_block": "Block Of Life Crystal",
-	"block.expansioncraft.ruby_block": "Block Of Ruby",
-	"block.expansioncraft.topaz_block": "Block Of Topaz",
+	"block.expansioncraft.life_crystal_block": "Block of Life Crystal",
+	"block.expansioncraft.ruby_block": "Block of Ruby",
+	"block.expansioncraft.topaz_block": "Block of Topaz",
 	
 	"itemGroup.ectab": "Expansion Craft"
 }

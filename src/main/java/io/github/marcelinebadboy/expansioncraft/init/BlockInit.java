@@ -1,6 +1,7 @@
 package io.github.marcelinebadboy.expansioncraft.init;
 
 import io.github.marcelinebadboy.expansioncraft.ExpansionCraft;
+import io.github.marcelinebadboy.expansioncraft.init.blocks.custom.FoundrySmelterBlock;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,13 @@ import java.util.function.Supplier;
 public class BlockInit {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, ExpansionCraft.MODID);
+    
+    //Block entities
+    public static final RegistryObject<Block> FOUNDRY_SMELTER = registerBlock("foundry_smelter", 
+			() -> new FoundrySmelterBlock(BlockBehaviour.Properties.of(Material.STONE).strength(2f)
+					.lightLevel(state -> state.getValue(FoundrySmelterBlock.LIT) ? 15 : 0)),
+					CreativeTab.EXPANSION_CRAFT_TAB);
+
 
     //Blocks
     public static final RegistryObject<Block> LIFE_CRYSTAL_ORE = registerBlock("life_crystal_ore", 

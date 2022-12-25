@@ -2,8 +2,13 @@ package io.github.marcelinebadboy.expansioncraft;
 
 import com.mojang.logging.LogUtils;
 
+import io.github.marcelinebadboy.expansioncraft.init.BlockEntityInit;
 import io.github.marcelinebadboy.expansioncraft.init.BlockInit;
 import io.github.marcelinebadboy.expansioncraft.init.ItemInit;
+import io.github.marcelinebadboy.expansioncraft.init.MenuInit;
+import io.github.marcelinebadboy.expansioncraft.init.RecipeInit;
+import io.github.marcelinebadboy.expansioncraft.init.gui.FoundrySmelterScreen;
+import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -27,6 +32,11 @@ public class ExpansionCraft
         
         ItemInit.register(modEventBus);
         BlockInit.register(modEventBus);
+        BlockEntityInit.register(modEventBus);
+        
+        MenuInit.register(modEventBus);
+        
+        RecipeInit.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -41,7 +51,7 @@ public class ExpansionCraft
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-      
+        	MenuScreens.register(MenuInit.FOUNDRY_SMELTER_MENU.get(), FoundrySmelterScreen::new);
         }
     }
 }
