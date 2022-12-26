@@ -26,8 +26,6 @@ public class BlockInit {
 			() -> new FoundrySmelterBlock(BlockBehaviour.Properties.of(Material.STONE).strength(2f)
 					.lightLevel(state -> state.getValue(FoundrySmelterBlock.LIT) ? 15 : 0)),
 					CreativeTab.EXPANSION_CRAFT_TAB);
-
-
     //Blocks
     public static final RegistryObject<Block> LIFE_CRYSTAL_ORE = registerBlock("life_crystal_ore", 
 			() -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(3f).requiresCorrectToolForDrops(), 

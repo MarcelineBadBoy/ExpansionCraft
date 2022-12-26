@@ -2,7 +2,6 @@ package io.github.marcelinebadboy.expansioncraft.init.recipes;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonObject;
-
 import io.github.marcelinebadboy.expansioncraft.ExpansionCraft;
 import net.minecraft.core.NonNullList;
 import net.minecraft.network.FriendlyByteBuf;
@@ -50,7 +49,6 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
         			if(recipeItems.get(i).test(pContainer.getItem(l))) {
         				ingredient[i] = true;
             			slot[l] = false;
-            			
             		}
         		}
         	}
@@ -74,7 +72,6 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
         		}
     		}
     	}
-        
         return returner;
     }
 
@@ -133,10 +130,13 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
             JsonArray ingredients = GsonHelper.getAsJsonArray(pSerializedRecipe, "ingredients");
             NonNullList<Ingredient> inputs = NonNullList.withSize(ingredients.size(), Ingredient.EMPTY);
 
+            System.out.print("TEST: " + pRecipeId + "\n");
+            
             for (int i = 0; i < inputs.size(); i++) {
+            	System.out.print("INGREDIENT: " + ingredients.get(i) + "\n" + Ingredient.fromJson(ingredients.get(i)) + "\n");
             	inputs.set(i, Ingredient.fromJson(ingredients.get(i)));
             }
-
+            
             return new FoundrySmelterRecipe(pRecipeId, output, inputs);
         }
         
