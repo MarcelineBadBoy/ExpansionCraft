@@ -1,0 +1,12 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:iron_smelting_materials"
+    }
+  ],
+  "output": {
+    "item": "minecraft:iron_ingot",
+    "experience": 0.7
+  }
+}
