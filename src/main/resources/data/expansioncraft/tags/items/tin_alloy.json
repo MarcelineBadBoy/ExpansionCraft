@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "expansioncraft:raw_tin",
+    "expansioncraft:tin_ore",
+    "expansioncraft:deepslate_tin_ore",
+    "expansioncraft:tin_ingot"
+  ]
+}

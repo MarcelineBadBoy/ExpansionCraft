@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:iron_alloy"
+    },
+    {
+      "tag": "expansioncraft:iron_alloy"
+    },
+    {
+      "tag": "expansioncraft:iron_alloy"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "output": {
+    "item": "expansioncraft:steel_ingot",
+    "count": 2
+  }
+}

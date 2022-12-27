@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:copper_alloy"
+    },
+    {
+      "tag": "expansioncraft:copper_alloy"
+    },
+    {
+      "tag": "expansioncraft:tin_alloy"
+    },
+    {
+      "tag": "expansioncraft:tin_alloy"
+    }
+  ],
+  "output": {
+    "item": "expansioncraft:bronze_ingot",
+    "count": 2
+  }
+}

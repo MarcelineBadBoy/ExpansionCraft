@@ -17,6 +17,17 @@
 	"expansioncraft.amethyst_block",
 	"expansioncraft.life_crystal_block",
 	"expansioncraft.ruby_block",
-	"expansioncraft.topaz_block"
+	"expansioncraft.topaz_block",
+	
+	"expansioncraft.amethyst_block",
+	"expansioncraft.life_crystal_block",
+	"expansioncraft.ruby_block",
+	"expansioncraft.topaz_block",
+	
+	"expansioncraft.brass_block",
+	"expansioncraft.bronze_block",
+	"expansioncraft.gunmetal_block",
+	"expansioncraft.rose_gold_block",
+	"expansioncraft.steel_block"
   ]
 }

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "expansioncraft:tin_smelting_materials"
+  },
+  "result": "expansioncraft:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

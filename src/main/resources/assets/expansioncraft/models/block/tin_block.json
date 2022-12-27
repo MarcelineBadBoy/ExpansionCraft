@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "expansioncraft:blocks/tin_block_top",
+    "side": "expansioncraft:blocks/tin_block_side"
+  }
+}

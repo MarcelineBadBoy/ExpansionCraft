@@ -1,4 +1,4 @@
-package io.github.marcelinebadboy.expansioncraft.init.util;
+package io.github.marcelinebadboy.expansioncraft.init;
 
 import io.github.marcelinebadboy.expansioncraft.ExpansionCraft;
 import net.minecraft.resources.ResourceLocation;
@@ -25,6 +25,18 @@ public class TagsInit {
     //Item tags
     public static class Items {
         public static final TagKey<Item> IRON_SMELTING_MATERIALS = tag("iron_smelting_materials");
+        public static final TagKey<Item> COPPER_SMELTING_MATERIALS = tag("copper_smelting_materials");
+        public static final TagKey<Item> GOLD_SMELTING_MATERIALS = tag("gold_smelting_materials");
+        public static final TagKey<Item> TIN_SMELTING_MATERIALS = tag("tin_smelting_materials");
+        public static final TagKey<Item> ZINC_SMELTING_MATERIALS = tag("zinc_smelting_materials");
+        
+        public static final TagKey<Item> IRON_ALLOY = tag("iron_alloy");
+        public static final TagKey<Item> COPPER_ALLOY = tag("copper_alloy");
+        public static final TagKey<Item> GOLD_ALLOY = tag("gold_alloy");
+        public static final TagKey<Item> TIN_ALLOY = tag("tin_alloy");
+        public static final TagKey<Item> ZINC_ALLOY = tag("zinc_alloy");
+        
+        public static final TagKey<Item> REDSTONE_ALLOY = tag("redstone_alloy");
         
         //Creating tags
         private static TagKey<Item> tag(String name) {

@@ -7,6 +7,11 @@
     "expansioncraft:deepslate_ruby_ore",
     "expansioncraft:topaz_ore",
     "expansioncraft:deepslate_topaz_ore",
+    
+    "expansioncraft:tin_ore",
+    "expansioncraft:deepslate_tin_ore",
+    "expansioncraft:zinc_ore",
+    "expansioncraft:deepslate_zinc_ore",
         
     "expansioncraft.raw_diamond_block",
 	"expansioncraft.raw_emerald_block",
@@ -14,9 +19,22 @@
 	"expansioncraft.raw_ruby_block",
 	"expansioncraft.raw_topaz_block",
 	
+    "expansioncraft.raw_tin_block",
+	"expansioncraft.raw_zinc_block",
+	
 	"expansioncraft.amethyst_block",
 	"expansioncraft.life_crystal_block",
 	"expansioncraft.ruby_block",
-	"expansioncraft.topaz_block"
+	"expansioncraft.topaz_block",
+	
+	"expansioncraft.tin_block",
+	"expansioncraft.zinc_block",
+	"expansioncraft.brass_block",
+	"expansioncraft.bronze_block",
+	"expansioncraft.gunmetal_block",
+	"expansioncraft.rose_gold_block",
+	"expansioncraft.steel_block",
+	
+	"expansioncraft.netherite_scrap_block"
   ]
 }

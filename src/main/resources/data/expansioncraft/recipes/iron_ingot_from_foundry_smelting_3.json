@@ -13,7 +13,6 @@
   ],
   "output": {
     "item": "minecraft:iron_ingot",
-    "count": 3,
-    "experience": 0.7
+    "count": 3
   }
 }

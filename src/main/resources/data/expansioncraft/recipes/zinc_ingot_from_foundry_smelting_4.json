@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:zinc_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:zinc_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:zinc_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:zinc_smelting_materials"
+    }
+  ],
+  "output": {
+    "item": "expansioncraft:zinc_ingot",
+    "count": 4
+  }
+}

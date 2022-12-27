@@ -64,14 +64,23 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
         	}
         }
         
+        int size = 0;
+        
         //Checking if the rest of the slots are empty
         for (int l = 1; l < 5; l++) {
     		if(slot[l] == true) {
     			if(pContainer.getItem(l).getItem() != Blocks.AIR.asItem()) {
     				returner = false;
+        		} else {
+        			size++;
         		}
     		}
     	}
+        
+        if(4-size != recipeItems.size()) {
+        	returner = false;
+        }
+        
         return returner;
     }
 
@@ -130,10 +139,7 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
             JsonArray ingredients = GsonHelper.getAsJsonArray(pSerializedRecipe, "ingredients");
             NonNullList<Ingredient> inputs = NonNullList.withSize(ingredients.size(), Ingredient.EMPTY);
 
-            System.out.print("TEST: " + pRecipeId + "\n");
-            
             for (int i = 0; i < inputs.size(); i++) {
-            	System.out.print("INGREDIENT: " + ingredients.get(i) + "\n" + Ingredient.fromJson(ingredients.get(i)) + "\n");
             	inputs.set(i, Ingredient.fromJson(ingredients.get(i)));
             }
             
@@ -156,9 +162,10 @@ public class FoundrySmelterRecipe implements Recipe<SimpleContainer> {
         public void toNetwork(FriendlyByteBuf buf, FoundrySmelterRecipe recipe) {
             buf.writeInt(recipe.getIngredients().size());
 
-            for (Ingredient ing : recipe.getIngredients()) {
-                ing.toNetwork(buf);
+            for (int i = 0; i < recipe.getIngredients().size(); i++) {
+            	recipe.getIngredients().get(i).toNetwork(buf);;
             }
+            
   
             buf.writeItemStack(recipe.getResultItem(), false);
         }

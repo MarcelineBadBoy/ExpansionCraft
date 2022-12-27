@@ -1,6 +1,6 @@
 {
 	"parent": "block/cube_all",
 	"textures": {
-		"all": "expansioncraft:blocks/life_crystal_block"
+		"all": "expansioncraft:blocks/raw_life_crystal_block"
 	}
 }

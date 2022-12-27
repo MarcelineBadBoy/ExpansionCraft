@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:gold_alloy"
+    },
+    {
+      "tag": "expansioncraft:gold_alloy"
+    },
+    {
+      "tag": "expansioncraft:copper_alloy"
+    },
+    {
+      "tag": "expansioncraft:redstone_alloy"
+    }
+  ],
+  "output": {
+    "item": "expansioncraft:rose_gold_ingot",
+    "count": 2
+  }
+}

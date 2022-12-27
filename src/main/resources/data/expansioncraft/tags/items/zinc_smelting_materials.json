@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "expansioncraft:raw_zinc",
+    "expansioncraft:zinc_ore",
+    "expansioncraft:deepslate_zinc_ore"
+  ]
+}

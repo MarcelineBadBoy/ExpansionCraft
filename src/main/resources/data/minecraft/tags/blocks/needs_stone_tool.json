@@ -1,6 +1,15 @@
 {
   "replace": false,
   "values": [
-   
+   	"expansioncraft:tin_ore",
+    "expansioncraft:deepslate_tin_ore",
+    "expansioncraft:zinc_ore",
+    "expansioncraft:deepslate_zinc_ore",
+    
+    "expansioncraft.raw_tin_block",
+	"expansioncraft.raw_zinc_block",
+	
+	"expansioncraft.tin_block",
+	"expansioncraft.zinc_block"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:gold_smelting_materials"
+    }
+  ],
+  "output": {
+    "item": "minecraft:gold_ingot"
+  }
+}

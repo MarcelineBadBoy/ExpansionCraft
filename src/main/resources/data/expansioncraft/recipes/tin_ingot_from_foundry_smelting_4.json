@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:tin_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:tin_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:tin_smelting_materials"
+    },
+    {
+      "tag": "expansioncraft:tin_smelting_materials"
+    }
+  ],
+  "output": {
+    "item": "expansioncraft:tin_ingot",
+    "count": 4
+  }
+}

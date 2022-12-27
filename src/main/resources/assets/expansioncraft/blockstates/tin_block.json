@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "expansioncraft:block/tin_block_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "expansioncraft:block/tin_block"
+    },
+    "axis=z": {
+      "model": "expansioncraft:block/tin_block_horizontal",
+      "x": 90
+    }
+  }
+}
