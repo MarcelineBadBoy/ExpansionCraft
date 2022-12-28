@@ -34,6 +34,7 @@ public class FoundrySmelterScreen extends AbstractContainerScreen<FoundrySmelter
 
         this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
 
+        renderLavaBucketSlot(pPoseStack, x, y);
         renderProgressArrow(pPoseStack, x, y);
         renderSmeltingProgress(pPoseStack, x, y);
 	}
@@ -52,6 +53,13 @@ public class FoundrySmelterScreen extends AbstractContainerScreen<FoundrySmelter
             blit(pPoseStack, x + 48, y + 36, 48, 36, 14, 12-menu.getScaledSmeltingProgress());
         }
     }
+	
+	//Rendering fuel amount
+		private void renderLavaBucketSlot(PoseStack pPoseStack, int x, int y) {
+	        if(menu.isEmpty() == false) {
+	        	blit(pPoseStack, x + 48, y + 53, 176, 31, 16, 16);
+	        }
+	    }
 	
 	//Rendering
     @Override

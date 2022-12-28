@@ -9,6 +9,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.inventory.*;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.SlotItemHandler;
@@ -54,6 +55,11 @@ public class FoundrySmelterMenu extends AbstractContainerMenu {
     //Check if FoundrySmelterEntity has fuel
     public boolean isSmelting() {
         return data.get(2) > 0;
+    }
+    
+    //Check if FoundrySmelterEntity has fuel slot is empty
+    public boolean isEmpty() {
+        return this.getSlot(36).hasItem();
     }
     
     //Fancy rendering of the part of the arrow
