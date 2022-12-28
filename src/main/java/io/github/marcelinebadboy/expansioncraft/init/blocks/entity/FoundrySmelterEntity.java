@@ -43,11 +43,7 @@ public class FoundrySmelterEntity extends BlockEntity implements MenuProvider {
         @Override
         public boolean isItemValid(int slot, @NotNull ItemStack stack) {
             return switch (slot) {
-                case 0 -> stack.getItem() == Items.LAVA_BUCKET || 
-                		stack.getItem() == Blocks.COAL_BLOCK.asItem() || 
-                		stack.getItem() == Items.BLAZE_ROD || 
-                		stack.getItem() == Items.COAL ||
-                		stack.getItem() == Items.CHARCOAL ||
+                case 0 -> stack.getItem() == Items.LAVA_BUCKET ||
                 		stack.getItem() == Items.BUCKET;
                 case 1 -> true; //true = all
                 case 2 -> true; 
@@ -308,24 +304,6 @@ public class FoundrySmelterEntity extends BlockEntity implements MenuProvider {
         	entity.itemHandler.setStackInSlot(0, new ItemStack(Items.BUCKET, 1));
         	entity.smeltingProgress = 20000;
         	entity.maxSmeltingProgress = 20000;
-        }
-        
-        if(entity.itemHandler.getStackInSlot(0).getItem() == Blocks.COAL_BLOCK.asItem()) {
-        	entity.itemHandler.extractItem(0, 1, false);
-        	entity.smeltingProgress = 16000;
-        	entity.maxSmeltingProgress = 16000;
-        }
-        
-        if(entity.itemHandler.getStackInSlot(0).getItem() == Items.BLAZE_ROD) {
-        	entity.itemHandler.extractItem(0, 1, false);
-        	entity.smeltingProgress = 2400 ;
-        	entity.maxSmeltingProgress = 2400;
-        }
-        
-        if(entity.itemHandler.getStackInSlot(0).getItem() == Items.COAL || entity.itemHandler.getStackInSlot(0).getItem() == Items.CHARCOAL) {
-        	entity.itemHandler.extractItem(0, 1, false);
-        	entity.smeltingProgress = 1600;
-        	entity.maxSmeltingProgress = 1600;
         }
     }
     

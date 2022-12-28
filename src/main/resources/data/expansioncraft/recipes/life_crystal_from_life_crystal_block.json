@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expansioncraft:life_crystal_block"
+    }
+  ],
+  "result": {
+    "item": "expansioncraft:life_crystal",
+    "count": 9
+  }
+}

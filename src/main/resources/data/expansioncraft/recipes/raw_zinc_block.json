@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "expansioncraft:raw_zinc"
+    }
+  },
+  "result": {
+    "item": "expansioncraft:raw_zinc_block"
+  }
+}

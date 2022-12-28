@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "expansioncraft:gunmetal_block"
+    }
+  ],
+  "result": {
+    "item": "expansioncraft:gunmetal_ingot",
+    "count": 9
+  }
+}

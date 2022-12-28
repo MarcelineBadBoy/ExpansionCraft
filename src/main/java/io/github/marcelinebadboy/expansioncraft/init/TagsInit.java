@@ -37,6 +37,7 @@ public class TagsInit {
         public static final TagKey<Item> ZINC_ALLOY = tag("zinc_alloy");
         
         public static final TagKey<Item> REDSTONE_ALLOY = tag("redstone_alloy");
+        public static final TagKey<Item> NETHERITE_ALLOY = tag("netherite_alloy");
         
         //Creating tags
         private static TagKey<Item> tag(String name) {

@@ -9,6 +9,17 @@
 	"item.expansioncraft.ruby": "Ruby",
 	"item.expansioncraft.topaz": "Topaz",
 	
+	"item.expansioncraft.raw_tin": "Raw Tin",
+	"item.expansioncraft.tin_ingot": "Tin Ingot",
+	"item.expansioncraft.raw_zinc": "Raw Zinc",
+	"item.expansioncraft.zinc_ingot": "Zinc Ingot",
+	"item.expansioncraft.brass_ingot": "Brass Ingot",
+	"item.expansioncraft.bronze_ingot": "Bronze Ingot",
+	"item.expansioncraft.rose_gold_ingot": "Rose Gold Ingot",
+	"item.expansioncraft.gunmetal_ingot": "Gunmetal Ingot",
+	"item.expansioncraft.steel_ingot": "Steel Ingot",
+	"item.expansioncraft.netherite_scrap_ingot": "Netherite Scrap Ingot",
+	
 	"block.expansioncraft.foundry_smelter": "Foundry Smelter",
 	
 	"block.expansioncraft.life_crystal_ore": "Life Crystal Ore",
@@ -17,6 +28,10 @@
 	"block.expansioncraft.deepslate_ruby_ore": "Deepslate Ruby Ore",
 	"block.expansioncraft.topaz_ore": "Topaz Ore",
 	"block.expansioncraft.deepslate_topaz_ore": "Deepslate Topaz Ore",
+	"block.expansioncraft.tin_ore": "Tin Ore",
+	"block.expansioncraft.deepslate_tin_ore": "Deepslate Tin Ore",
+	"block.expansioncraft.zinc_ore": "Zinc Ore",
+	"block.expansioncraft.deepslate_zinc_ore": "Deepslate Zinc Ore",
 	
 	"block.expansioncraft.raw_diamond_block": "Block of Raw Diamond",
 	"block.expansioncraft.raw_emerald_block": "Block of Raw Emerald",
@@ -24,11 +39,22 @@
 	"block.expansioncraft.raw_ruby_block": "Block of Raw Ruby",
 	"block.expansioncraft.raw_topaz_block": "Block of Raw Topaz",
 	
-	"block.expansioncraft.amethyst_block": "Block Of Amethyst",
-	"block.minecraft.amethyst_block": "Block Of Amethyst Shard",
+	"block.expansioncraft.raw_tin_block": "Block of Raw Tin",
+	"block.expansioncraft.raw_zinc_block": "Block of Raw Zinc",
+	
+	"block.expansioncraft.amethyst_block": "Block of Amethyst",
+	"block.minecraft.amethyst_block": "Block of Amethyst Shard",
 	"block.expansioncraft.life_crystal_block": "Block of Life Crystal",
 	"block.expansioncraft.ruby_block": "Block of Ruby",
 	"block.expansioncraft.topaz_block": "Block of Topaz",
+	"block.expansioncraft.tin_block": "Block of Tin",
+	"block.expansioncraft.zinc_block": "Block Of Zinc",
+	"block.expansioncraft.brass_block": "Block of Brass",
+	"block.expansioncraft.bronze_block": "Block of Bronze",
+	"block.expansioncraft.rose_gold_block": "Block of Rose Gold",
+	"block.expansioncraft.gunmetal_block": "Block of Gunmetal",
+	"block.expansioncraft.steel_block": "Block of Steel",
+	"block.expansioncraft.netherite_scrap_block": "Block of Netherite Scrap",
 	
 	"itemGroup.ectab": "Expansion Craft"
 }

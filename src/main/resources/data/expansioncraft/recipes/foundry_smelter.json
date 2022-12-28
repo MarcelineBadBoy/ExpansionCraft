@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "ILI",
+    "###"
+  ],
+  "key": {
+    "#": {
+      	"item": "minecraft:cobbled_deepslate"
+    },
+    "I": {
+    	"item": "minecraft:iron_ingot"
+    },
+    "L": {
+    	"item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "expansioncraft:foundry_smelter"
+  }
+}

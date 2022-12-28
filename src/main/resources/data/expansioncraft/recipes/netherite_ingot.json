@@ -1,0 +1,21 @@
+{
+  "type": "expansioncraft:foundry_smelter",
+  "ingredients": [
+    {
+      "tag": "expansioncraft:gold_alloy"
+    },
+    {
+      "tag": "expansioncraft:gold_alloy"
+    },
+    {
+      "item": "expansioncraft:netherite_scrap_ingot"
+    },
+    {
+      "item": "expansioncraft:netherite_scrap_ingot"
+    }
+  ],
+  "output": {
+    "item": "minecraft:netherite_ingot",
+    "count": 1
+  }
+}

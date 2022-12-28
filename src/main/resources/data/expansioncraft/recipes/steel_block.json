@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "expansioncraft:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "expansioncraft:steel_block"
+  }
+}
