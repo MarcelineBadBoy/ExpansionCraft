@@ -21,8 +21,7 @@ public class FoundrySmelterScreen extends AbstractContainerScreen<FoundrySmelter
     protected void init() {
         super.init();
     }
-	
-	
+
 	//Rendering background
 	@Override
 	protected void renderBg(PoseStack pPoseStack, float pPartialTick, int pMouseX, int pMouseY) {
@@ -30,9 +29,13 @@ public class FoundrySmelterScreen extends AbstractContainerScreen<FoundrySmelter
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
         int x = (width - imageWidth) / 2;
-        int y = (height - imageHeight) / 2;
+        int y = (height - 19 - imageHeight) / 2;
 
-        this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight);
+        this.titleLabelY = -4;
+        this.titleLabelX = imageWidth / 4;
+        this.inventoryLabelY = 81;
+
+        this.blit(pPoseStack, x, y, 0, 0, imageWidth, imageHeight + 19);
 
         renderLavaBucketSlot(pPoseStack, x, y);
         renderProgressArrow(pPoseStack, x, y);
@@ -42,22 +45,22 @@ public class FoundrySmelterScreen extends AbstractContainerScreen<FoundrySmelter
 	//Rendering progress arrow
 	private void renderProgressArrow(PoseStack pPoseStack, int x, int y) {
         if(menu.isCrafting()) {
-            blit(pPoseStack, x + 99, y + 16, 177, 14, menu.getScaledProgress(), 17);
+            blit(pPoseStack, x + 81, y + 54, 177, 14, menu.getScaledProgress(), 17);
         }
     }
 	
 	//Rendering fuel amount
 	private void renderSmeltingProgress(PoseStack pPoseStack, int x, int y) {
         if(menu.isSmelting()) {
-        	blit(pPoseStack, x + 48, y + 36, 176, 0, 14, 14);
-            blit(pPoseStack, x + 48, y + 36, 48, 36, 14, 12-menu.getScaledSmeltingProgress());
+        	blit(pPoseStack, x + 48, y + 55, 176, 0, 14, 14);
+            blit(pPoseStack, x + 48, y + 55, 48, 55, 14, 12-menu.getScaledSmeltingProgress());
         }
     }
 	
 	//Rendering fuel amount
 		private void renderLavaBucketSlot(PoseStack pPoseStack, int x, int y) {
 	        if(menu.isEmpty() == false) {
-	        	blit(pPoseStack, x + 48, y + 53, 176, 31, 16, 16);
+	        	blit(pPoseStack, x + 48, y + 72, 176, 31, 16, 16);
 	        }
 	    }
 	

@@ -11,7 +11,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
-import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.SlotItemHandler;
 
 public class FoundrySmelterMenu extends AbstractContainerMenu {
@@ -36,13 +36,13 @@ public class FoundrySmelterMenu extends AbstractContainerMenu {
         addPlayerHotbar(inv);
         
         //Slots and their positions
-        this.blockEntity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY).ifPresent(handler -> {
-        	this.addSlot(new SlotItemHandler(handler, 0, 48, 53));
-            this.addSlot(new SlotItemHandler(handler, 1, 21, 17));
-            this.addSlot(new SlotItemHandler(handler, 2, 39, 17));
-            this.addSlot(new SlotItemHandler(handler, 3, 57, 17));
-            this.addSlot(new SlotItemHandler(handler, 4, 75, 17));
-            this.addSlot(new SlotItemHandler(handler, 5, 135, 17));
+        this.blockEntity.getCapability(ForgeCapabilities.ITEM_HANDLER).ifPresent(handler -> {
+        	this.addSlot(new SlotItemHandler(handler, 0, 48, 62));
+            this.addSlot(new SlotItemHandler(handler, 1, 39, 8));
+            this.addSlot(new SlotItemHandler(handler, 2, 57, 8));
+            this.addSlot(new SlotItemHandler(handler, 3, 39, 26));
+            this.addSlot(new SlotItemHandler(handler, 4, 57, 26));
+            this.addSlot(new SlotItemHandler(handler, 5, 117, 45));
         });
         addDataSlots(data);
     }
@@ -137,7 +137,7 @@ public class FoundrySmelterMenu extends AbstractContainerMenu {
     private void addPlayerInventory(Inventory playerInventory) {
         for (int i = 0; i < 3; ++i) {
             for (int l = 0; l < 9; ++l) {
-                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 84 + i * 18));
+                this.addSlot(new Slot(playerInventory, l + i * 9 + 9, 8 + l * 18, 93 + i * 18));
             }
         }
     }
@@ -145,7 +145,7 @@ public class FoundrySmelterMenu extends AbstractContainerMenu {
     //Assign slots from the players hotbar to the menu
     private void addPlayerHotbar(Inventory playerInventory) {
         for (int i = 0; i < 9; ++i) {
-            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 142));
+            this.addSlot(new Slot(playerInventory, i, 8 + i * 18, 151));
         }
     }
 }

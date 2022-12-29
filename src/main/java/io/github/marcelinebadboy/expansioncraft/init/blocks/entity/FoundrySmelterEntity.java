@@ -22,8 +22,8 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.common.capabilities.Capability;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.ItemStackHandler;
 import org.jetbrains.annotations.NotNull;
@@ -130,7 +130,7 @@ public class FoundrySmelterEntity extends BlockEntity implements MenuProvider {
     //Uses the knowledge about the sides of the block to map them correctly for the world
     @Override
     public @NotNull <T> LazyOptional<T> getCapability(@NotNull Capability<T> cap, @Nullable Direction side) {
-    	if (cap == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
+    	if (cap == ForgeCapabilities.ITEM_HANDLER) {
             if(side == null) {
                 return lazyItemHandler.cast();
             }
@@ -218,9 +218,12 @@ public class FoundrySmelterEntity extends BlockEntity implements MenuProvider {
         	if(pEntity.smeltingProgress == 0 && hasFuel(pEntity)) {
         		useFuel(pEntity);
         	}
+
+            if(pEntity.smeltingProgress == 0) {
+                FoundrySmelterBlock.isSmelting(state, level, pos, false);
+            }
         	
         	if(pEntity.smeltingProgress == 0 && pEntity.progress > 0) {
-        		FoundrySmelterBlock.isSmelting(state, level, pos, false);
         		pEntity.progress--;
         	}
         	
